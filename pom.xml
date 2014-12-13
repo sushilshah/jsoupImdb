@@ -184,7 +184,6 @@
   </profiles>
  
   <dependencies>
-
     <dependency>
       <!-- junit -->
       <groupId>junit</groupId>
@@ -192,7 +191,20 @@
       <version>4.5</version>
       <scope>test</scope>
     </dependency>
-
+    
+	<dependency>
+		<groupId>org.codehaus.jackson</groupId>
+		<artifactId>jackson-core-asl</artifactId>
+		<version>1.9.13</version>
+	</dependency>
+	<dependency>
+	<groupId>org.codehaus.jackson</groupId>
+	<artifactId>jackson-mapper-asl</artifactId>
+	<version>1.9.13</version>
+</dependency>
+	
+    
+    
   </dependencies>
     
   <dependencyManagement>
